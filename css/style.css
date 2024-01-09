@@ -1,3 +1,4 @@
+/* basic css */
 * {
     margin: 0;
     padding: 0;
@@ -6,5 +7,62 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
+    font-size: 10px;
+}
+
+/* css reset */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+/* page wrapper */
+.wrapper {
+    max-width: 1170px;
+    margin: 0 5rem;
+}
+
+/* page margin */
+.margin-top {
+    margin-top: 3rem;
+}
+
+.margin-bottom {
+    margin-bottom: 3rem;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    font-size: 1.3rem;
 }
