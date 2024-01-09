@@ -105,3 +105,14 @@ nav ul li a {
   margin-bottom: 1rem;
   max-width: 30rem;
 }
+
+/* skills */
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-header h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
