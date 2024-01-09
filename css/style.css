@@ -23,7 +23,8 @@ ul {
 /* page wrapper */
 .wrapper {
   max-width: 1170px;
-  margin: 0 5rem;
+  margin: 0 auto;
+  padding: 0 5rem;
 }
 
 /* page margin */
