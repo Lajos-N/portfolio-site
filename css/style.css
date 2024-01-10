@@ -113,16 +113,28 @@ nav ul li a {
 }
 
 .skills-header h3 {
-    font-size: 2rem;
-    font-weight: 600;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
+/* projects */
 .projects-container {
   display: flex;
   justify-content: center;
 }
 
 .projects-header h3 {
-    font-size: 2rem;
-    font-weight: 600;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* contact */
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-header h3 {
+  font-size: 2rem;
+  font-weight: 600;
 }
