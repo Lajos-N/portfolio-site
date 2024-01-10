@@ -116,3 +116,13 @@ nav ul li a {
     font-size: 2rem;
     font-weight: 600;
 }
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-header h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
