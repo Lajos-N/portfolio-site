@@ -1,3 +1,17 @@
+/* color */
+:root {
+  /* page colors */
+  --background-color: #313D49;
+  --secondary-color: #06D6A0;
+  --dark-color: #181C22;
+  --light-color: #fff;
+
+  /* skills colors */
+  --html: #ff5733;
+  --css: #264de4;
+  --js: #f0db4f;
+}
+
 /* basic css */
 * {
   margin: 0;
