@@ -68,14 +68,7 @@ nav {
 
 nav ul {
   display: flex;
-}
-
-nav ul li {
-  margin: 0 10px;
-}
-
-nav ul li:last-child {
-  margin-right: 0;
+  gap: 2rem;
 }
 
 nav ul li a {
