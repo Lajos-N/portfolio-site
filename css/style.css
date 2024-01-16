@@ -147,3 +147,25 @@ nav ul li a {
   font-size: 2rem;
   font-weight: 600;
 }
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+footer a {
+  color: black;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.fa-angle-up {
+  padding: 8px;
+}
