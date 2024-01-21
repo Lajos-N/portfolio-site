@@ -158,9 +158,9 @@ nav ul li a {
 
 .skills-header h3 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--dark-color);
-  padding: 0.2rem 0.8rem;
+  padding: 0.2rem 0.3rem 0.2rem 0.8rem;
   background-color: var(--secondary-color);
   letter-spacing: 5px;
 }
@@ -173,9 +173,9 @@ nav ul li a {
 
 .projects-header h3 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--dark-color);
-  padding: 0.2rem 0.8rem;
+  padding: 0.2rem 0.3rem 0.2rem 0.8rem;
   background-color: var(--secondary-color);
   letter-spacing: 5px;
 }
@@ -188,9 +188,9 @@ nav ul li a {
 
 .contact-header h3 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 300;
   color: var(--dark-color);
-  padding: 0.2rem 0.8rem;
+  padding: 0.2rem 0.3rem 0.2rem 0.8rem;
   background-color: var(--secondary-color);
   letter-spacing: 5px;
 }
