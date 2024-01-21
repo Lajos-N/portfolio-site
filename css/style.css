@@ -160,6 +160,9 @@ nav ul li a {
   font-size: 2rem;
   font-weight: 600;
   color: var(--dark-color);
+  padding: 0.2rem 0.8rem;
+  background-color: var(--secondary-color);
+  letter-spacing: 5px;
 }
 
 /* projects */
@@ -172,6 +175,9 @@ nav ul li a {
   font-size: 2rem;
   font-weight: 600;
   color: var(--dark-color);
+  padding: 0.2rem 0.8rem;
+  background-color: var(--secondary-color);
+  letter-spacing: 5px;
 }
 
 /* contact */
@@ -184,6 +190,9 @@ nav ul li a {
   font-size: 2rem;
   font-weight: 600;
   color: var(--dark-color);
+  padding: 0.2rem 0.8rem;
+  background-color: var(--secondary-color);
+  letter-spacing: 5px;
 }
 
 /* footer */
