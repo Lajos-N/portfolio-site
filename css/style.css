@@ -157,6 +157,11 @@ footer {
   height: 5rem;
 }
 
+.fa-apple {
+  position: relative;
+  bottom: 1px;
+}
+
 footer a {
   color: black;
   position: fixed;
