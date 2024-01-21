@@ -29,12 +29,13 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   min-width: 370px;
+  background-color: var(--background-color);
 }
 
 /* css reset */
 a {
   text-decoration: none;
-  color: var(--dark-color);
+  color: var(--secondary-color);
 }
 
 ul {
@@ -99,6 +100,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: var(--light-color);
 }
 
 .hero-text h1 {
@@ -157,6 +159,7 @@ nav ul li a {
 .skills-header h3 {
   font-size: 2rem;
   font-weight: 600;
+  color: var(--dark-color);
 }
 
 /* projects */
@@ -168,6 +171,7 @@ nav ul li a {
 .projects-header h3 {
   font-size: 2rem;
   font-weight: 600;
+  color: var(--dark-color);
 }
 
 /* contact */
@@ -179,6 +183,7 @@ nav ul li a {
 .contact-header h3 {
   font-size: 2rem;
   font-weight: 600;
+  color: var(--dark-color);
 }
 
 /* footer */
@@ -187,6 +192,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 5rem;
+}
+
+footer p {
+  color: var(--light-color);
 }
 
 .fa-apple {
