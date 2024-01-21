@@ -34,7 +34,7 @@ body {
 /* css reset */
 a {
   text-decoration: none;
-  color: black;
+  color: var(--dark-color);
 }
 
 ul {
@@ -132,7 +132,7 @@ nav ul li a {
 .hexagon-container .fa-linkedin,
 .hexagon-container .cv {
   position: absolute;
-  color: white;
+  color: var(--light-color);
   font-size: 2rem;
   transform: translate(-50%, -50%);
   top: 47%;
@@ -195,12 +195,12 @@ footer {
 }
 
 footer a {
-  color: black;
+  color: var(--dark-color);
   position: fixed;
   right: 20px;
   bottom: 20px;
   font-size: 1rem;
-  border: 2px solid black;
+  border: 2px solid var(--dark-color);
   border-radius: 50px;
 }
 
