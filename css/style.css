@@ -1,9 +1,9 @@
 /* color */
 :root {
   /* page colors */
-  --background-color: #313D49;
-  --secondary-color: #06D6A0;
-  --dark-color: #181C22;
+  --background-color: #313d49;
+  --secondary-color: #06d6a0;
+  --dark-color: #181c22;
   --light-color: #fff;
 
   /* skills colors */
@@ -88,10 +88,8 @@ nav ul li a {
 }
 
 .img-container img {
-  width: 100%;
-  height: 100%;
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  max-width: 100%;
 }
 
 .hero-text {
