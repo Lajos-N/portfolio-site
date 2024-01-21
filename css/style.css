@@ -119,6 +119,35 @@ nav ul li a {
   max-width: 30rem;
 }
 
+.hero-contact li {
+  display: flex;
+  gap: 1rem;
+}
+
+.hexagon-container {
+  position: relative;
+}
+
+.hexagon-container .fa-github,
+.hexagon-container .fa-linkedin,
+.hexagon-container .cv {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+  top: 47%;
+  left: 49%;
+}
+
+.hexagon-container .cv {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.hexagon-container .hexagon {
+  height: 4rem;
+}
+
 /* skills */
 .skills-container {
   display: flex;
