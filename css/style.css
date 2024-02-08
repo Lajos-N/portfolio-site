@@ -2,7 +2,7 @@
 .wrapper {
   background-color: var(--background-color);
   min-width: 370px;
-  max-width: 1170px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 0 5rem;
 }
