@@ -89,7 +89,7 @@ nav ul li a:hover::after {
 
 .hero-contact li {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .hexagon-container {
