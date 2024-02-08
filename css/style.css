@@ -46,15 +46,6 @@ ul {
   padding: 0 5rem;
 }
 
-/* page margin */
-.margin-top {
-  margin-top: 3rem;
-}
-
-.margin-bottom {
-  margin-bottom: 3rem;
-}
-
 /* header */
 header {
   display: flex;
