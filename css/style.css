@@ -13,9 +13,8 @@ header {
   justify-content: space-between;
 }
 
-.logo {
-  font-size: 2rem;
-  font-weight: 600;
+.logo img {
+  height: 5rem;
 }
 
 nav {
