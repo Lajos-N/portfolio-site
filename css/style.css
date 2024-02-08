@@ -26,12 +26,6 @@ html {
   font-size: 10px;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  min-width: 370px;
-  background-color: var(--background-color);
-}
-
 /* css reset */
 a {
   text-decoration: none;
@@ -44,6 +38,9 @@ ul {
 
 /* page wrapper */
 .wrapper {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  min-width: 370px;
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 5rem;
