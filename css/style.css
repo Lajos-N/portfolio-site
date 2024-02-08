@@ -1,44 +1,5 @@
-/* color */
-:root {
-  /* page colors */
-  --background-color: #313d49;
-  --secondary-color: #06d6a0;
-  --dark-color: #181c22;
-  --light-color: #fff;
-
-  /* skills colors */
-  --html: #ff5733;
-  --css: #264de4;
-  --js: #f0db4f;
-}
-
-/* font */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
-
-/* basic css */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 10px;
-}
-
-/* css reset */
-a {
-  text-decoration: none;
-  color: var(--secondary-color);
-}
-
-ul {
-  list-style: none;
-}
-
 /* page wrapper */
 .wrapper {
-  font-family: "Roboto", sans-serif;
   background-color: var(--background-color);
   min-width: 370px;
   max-width: 1170px;

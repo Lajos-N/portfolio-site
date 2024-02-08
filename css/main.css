@@ -1,3 +1,49 @@
+/* ===== IMPORT FONT ===== */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+/* ===== VARIABLES ===== */
+
+/* color */
+:root {
+    /* page colors */
+    --background-color: #313d49;
+    --secondary-color: #06d6a0;
+    --dark-color: #181c22;
+    --light-color: #fff;
+
+    /* skills colors */
+    --html: #ff5733;
+    --css: #264de4;
+    --js: #f0db4f;
+}
+
+/* ===== RESET ===== */
+
+/* basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* link reset */
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/* list reset */
+ul {
+    list-style: none;
+}
+
+/* basic font, size*/
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+}
+
 /* ===== MARGIN ===== */
 
 /* top */
@@ -19,7 +65,6 @@
 .m-l-7 {
     margin-left: 7rem;
 }
-
 
 /* ===== PADDING ===== */
 
