@@ -107,6 +107,13 @@ nav ul li a:hover::after {
   left: 49%;
 }
 
+.hexagon-container:hover .fa-github,
+.hexagon-container:hover .fa-linkedin,
+.hexagon-container:hover .cv {
+  color: var(--dark-color);
+  transition: 0.3s;
+}
+
 .hexagon-container .cv {
   font-weight: 700;
   font-size: 1.8rem;
