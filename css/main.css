@@ -77,6 +77,9 @@ html {
 /* ===== PADDING ===== */
 
 /* top */
+.p-t-5 {
+    padding-top: 5rem;
+}
 
 /* right */
 .p-r-7 {
@@ -84,6 +87,9 @@ html {
 }
 
 /* bottom */
+.p-b-5 {
+    padding-bottom: 5rem;
+}
 
 /* left */
 .p-l-7 {
