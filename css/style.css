@@ -123,21 +123,6 @@ nav ul li a:hover::after {
   height: 4rem;
 }
 
-/* skills */
-.skills-container {
-  display: flex;
-  justify-content: center;
-}
-
-.skills-header h3 {
-  font-size: 2rem;
-  font-weight: 300;
-  color: var(--dark-color);
-  padding: 0.2rem 0.3rem 0.2rem 0.8rem;
-  background-color: var(--secondary-color);
-  letter-spacing: 5px;
-}
-
 /* projects */
 .projects-container {
   display: flex;
