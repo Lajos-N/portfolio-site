@@ -110,9 +110,43 @@
       </section>
 
       <!-- CONTACT SECTION -->
-      <section id="contact" class="contact-container m-r-7 m-b-3 m-l-7">
-        <div class="contact-header">
+      <section id="contact" class="contact-container m-r-7 m-l-7 p-b-5">
+        <div class="contact-header p-b-5">
           <h3>Kontakt</h3>
+        </div>
+        <div class="contact-form-container">
+          <form action="https://formspree.io/f/xwkyrzzj" method="POST">
+            <label for="name">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+            </label>
+            <label for="email">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <label for="text-area">
+              <textarea
+                placeholder="Nachricht.."
+                required
+                name="massage"
+                id="text-area"
+                cols="20"
+                rows="10"
+              ></textarea>
+            </label>
+            <button class="form-btn" type="submit">Senden</button>
+          </form>
+          <div class="contact-bg"></div>  
         </div>
       </section>
     </main>
