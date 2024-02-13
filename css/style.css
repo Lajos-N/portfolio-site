@@ -138,17 +138,3 @@ nav ul li a:hover::after {
   letter-spacing: 5px;
 }
 
-/* contact */
-.contact-container {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-header h3 {
-  font-size: 2rem;
-  font-weight: 300;
-  color: var(--dark-color);
-  padding: 0.2rem 0.3rem 0.2rem 0.8rem;
-  background-color: var(--secondary-color);
-  letter-spacing: 5px;
-}
