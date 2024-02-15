@@ -3,11 +3,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
+    height: 10rem;
+    background-color: var(--dark-color);
 }
 
 footer p {
     color: var(--light-color);
+    padding: 0 8rem;
+    font-size: 1rem;
 }
 
 .fa-apple {
@@ -18,13 +21,13 @@ footer p {
 footer a {
     color: var(--dark-color);
     position: fixed;
-    right: 20px;
-    bottom: 20px;
-    font-size: 1rem;
-    border: 2px solid var(--dark-color);
-    border-radius: 50px;
+    right: 2%;
+    bottom: 2rem;
+    font-size: 2rem;
+    border: 0.2rem solid var(--dark-color);
+    border-radius: 5rem;
 }
 
 .fa-angle-up {
-    padding: 10px 12px;
+    padding: 1rem 1.2rem;
 }
