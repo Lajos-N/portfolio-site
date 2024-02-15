@@ -9,7 +9,9 @@
     /* page colors */
     --background-color: #313d49;
     --secondary-color: #06d6a0;
+    --secondary-color-hover: #10F9BB;
     --dark-color: #181c22;
+    --dark-color-hover: #212730;
     --light-color: #fff;
 
     /* skills colors */
