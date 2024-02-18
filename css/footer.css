@@ -2,19 +2,26 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10rem;
+    height: 5rem;
     background-color: var(--dark-color);
 }
 
 footer p {
     color: var(--light-color);
-    padding: 0 8rem;
     font-size: 1rem;
+}
+
+.copyright {
+    padding-left: 8rem;
+}
+
+.made-with {
+    padding-right: 8rem;
 }
 
 .fa-apple {
     position: relative;
-    bottom: 1px;
+    bottom: 0.1rem;
 }
 
 footer a {
