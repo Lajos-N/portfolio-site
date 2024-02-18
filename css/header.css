@@ -1,0 +1,43 @@
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 5rem;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  nav ul li a {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  
+  nav ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: var(--secondary-color);
+    position: relative;
+    left: 5px;
+    top: 2px;
+    transition: width 0.3s;
+  }
+  
+  nav ul li a:hover::after {
+    width: calc(100% - 5px);
+  }
+  
