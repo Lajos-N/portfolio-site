@@ -46,6 +46,11 @@ html {
     font-size: 10px;
 }
 
+::selection {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+
 /* ===== PAGE WRAPPER ===== */
 
 /* page wrapper */
