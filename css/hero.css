@@ -1,76 +1,71 @@
-
-/* hero */
 .hero-container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-  }
-  
-  .img-container img {
+}
+
+.img-container img {
     width: 30rem;
     max-width: 100%;
-  }
-  
-  .hero-text {
+}
+
+.hero-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: var(--light-color);
     max-width: 50%;
-  }
-  
-  .hero-text h1 {
+}
+
+.hero-text h1 {
     font-size: 3.2rem;
     letter-spacing: 0.6rem;
     font-weight: 700;
-  }
-  
-  .hero-text h2 {
+}
+
+.hero-text h2 {
     font-size: 2rem;
     font-weight: 400;
-  }
-  
-  .hero-text p {
+}
+
+.hero-text p {
     font-size: 1.4rem;
     line-height: 2.3rem;
     font-weight: 300;
-  }
-  
-  .hero-contact li {
+}
+
+.hero-contact li {
     display: flex;
     gap: 2rem;
-  }
-  
-  .hexagon-container {
+}
+
+.hexagon-container {
     position: relative;
-  }
-  
-  .hexagon-container .fa-github,
-  .hexagon-container .fa-linkedin,
-  .hexagon-container .cv {
+}
+
+.hexagon-container .fa-github,
+.hexagon-container .fa-linkedin,
+.hexagon-container .cv {
     position: absolute;
     color: var(--light-color);
     font-size: 2rem;
     transform: translate(-50%, -50%);
     top: 47%;
     left: 49%;
-  }
-  
-  .hexagon-container:hover .fa-github,
-  .hexagon-container:hover .fa-linkedin,
-  .hexagon-container:hover .cv {
+}
+
+.hexagon-container:hover .fa-github,
+.hexagon-container:hover .fa-linkedin,
+.hexagon-container:hover .cv {
     color: var(--dark-color);
     transition: 0.3s;
-  }
-  
-  .hexagon-container .cv {
+}
+
+.hexagon-container .cv {
     font-weight: 700;
     font-size: 1.8rem;
-  }
-  
-  .hexagon-container .hexagon {
+}
+
+.hexagon-container .hexagon {
     height: 4rem;
-  }
-  
-  
-  
+}
