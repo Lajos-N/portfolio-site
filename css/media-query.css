@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .btn-container {
+        display: flex;
+    }
+}
