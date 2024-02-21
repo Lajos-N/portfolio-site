@@ -19,7 +19,6 @@
     letter-spacing: 5px;
 }
 
-
 .contact-form-container {
     width: 80%;
     max-width: 784px;
@@ -40,7 +39,7 @@ textarea {
     padding: 1rem;
     color: var(--light-color);
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 300;
     font-family: "Roboto", sans-serif;
     color: black;
 }
@@ -57,15 +56,22 @@ textarea::-webkit-input-placeholder {
 
 .form-btn {
     width: 15%;
-    height: 3rem;
+    padding: 0.8rem 1.4rem;
     min-width: 6rem;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 300;
     background-color: var(--secondary-color);
     border: none;
     border-radius: 0.2rem;
     cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    transition: 0.3s ease-in-out;
+}
 
+.form-btn:hover {
+    background-color: var(--secondary-color-hover);
+    color: var(--light-color);
 }
 
 .contact-bg {
