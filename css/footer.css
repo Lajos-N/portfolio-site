@@ -34,6 +34,12 @@ footer a {
     border-radius: 5rem;
 }
 
+footer a:hover {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+    transition: 0.3s ease-in-out;
+}
+
 .fa-angle-up {
     padding: 1rem 1.2rem;
 }
