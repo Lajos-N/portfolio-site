@@ -65,51 +65,55 @@ html {
 /* ===== MARGIN ===== */
 
 /* top */
-.m-t-3 {
+.mt-3 {
     margin-top: 3rem;
 }
 
 /* right */
-.m-r-7 {
+.mr-7 {
     margin-right: 7rem;
 }
 
 /* bottom */
-.m-b-1 {
+.mb-1 {
     margin-bottom: 1rem;
 }
 
-.m-b-2 {
+.mb-2 {
     margin-bottom: 2rem;
 }
 
-.m-b-3 {
+.mb-3 {
     margin-bottom: 3rem;
 }
 
+.mb-7 {
+    margin-bottom: 7rem;
+}
+
 /* left */
-.m-l-7 {
+.ml-7 {
     margin-left: 7rem;
 }
 
 /* ===== PADDING ===== */
 
 /* top */
-.p-t-5 {
+.pt-5 {
     padding-top: 5rem;
 }
 
 /* right */
-.p-r-7 {
+.pr-7 {
     padding-right: 7rem;
 }
 
 /* bottom */
-.p-b-5 {
+.pb-5 {
     padding-bottom: 5rem;
 }
 
 /* left */
-.p-l-7 {
+.pl-7 {
     padding-left: 7rem;
 }
