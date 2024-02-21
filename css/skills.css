@@ -5,6 +5,10 @@
     position: relative;
 }
 
+.skills-header {
+    position: absolute;
+}
+
 .skills-header h3 {
     font-size: 2rem;
     font-weight: 300;
