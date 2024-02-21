@@ -23,6 +23,9 @@
 .project-card {
     width: 35rem;
     max-width: 100%;
+    padding: 2rem;
+    background-color: var(--dark-color);
+    border-radius: 0.2rem;
 }
 
 .img-box {
@@ -47,38 +50,41 @@
 }
 
 .project-text h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 300;
     color: var(--light-color);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .project-btn {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 1rem;
 }
 
 .project-btn a {
-    padding: 1rem 1.5rem;
+    padding: 0.8rem 1.4rem;
     background-color: var(--secondary-color);
     color: var(--dark-color);
     font-size: 1.4rem;
     font-weight: 300;
     border-radius: 0.2rem;
     text-transform: uppercase;
+    transition: 0.3s ease-in-out;
 }
 
 .project-btn a:last-child {
-    background-color: var(--dark-color);
+    background-color: var(--background-color);
     color: var(--light-color);
 }
 
 .project-btn a:last-child:hover {
-    background-color: var(--dark-color-hover);
+    background-color: var(--light-color);
+    color: var(--dark-color);
 }
 
 .project-btn a:hover {
     background-color: var(--secondary-color-hover);
+    color: var(--light-color);
 }
