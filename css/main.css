@@ -9,7 +9,7 @@
     /* page colors */
     --background-color: #313d49;
     --secondary-color: #06d6a0;
-    --secondary-color-hover: #0B9E7A;
+    --secondary-color-hover: #0b9e7a;
     --dark-color: #181c22;
     --dark-color-hover: #212730;
     --light-color: #fff;
@@ -59,7 +59,7 @@ html {
     min-width: 370px;
     max-width: 1024px;
     margin: 0 auto;
-    padding: 0 5rem;
+    padding: 0 7rem;
 }
 
 /* ===== MARGIN ===== */
