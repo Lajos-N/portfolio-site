@@ -56,7 +56,7 @@ html {
 /* page wrapper */
 .wrapper {
     background-color: var(--background-color);
-    min-width: 370px;
+    min-width: 576px;
     max-width: 1024px;
     margin: 0 auto;
     padding: 0 7rem;
