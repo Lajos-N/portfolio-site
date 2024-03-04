@@ -7,8 +7,8 @@
 
     nav ul {
         position: absolute;
-        top: -100vh;
-        right: 0;
+        top: 0;
+        left: -100vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -44,8 +44,8 @@
     }
 
     .is-active {
-        top: 0vh;
-        right: 0;
+        top: 0;
+        left: 0;
     }
 
     .stop-scrolling {
