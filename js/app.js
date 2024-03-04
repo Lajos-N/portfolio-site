@@ -1,5 +1,17 @@
+window.onload = () => {
+    copyrightYear();
+};
+
 // page copyright year
-const $year = document.querySelector('#year').innerHTML = new Date().getFullYear();
+const copyrightYear = () => {
+    const creationYear = 2023;
+    const $year = document.querySelector('#year');
+    if (new Date().getFullYear() > creationYear) {
+        $year.innerHTML = `${creationYear} - ${new Date().getFullYear()}`;
+    } else {
+        $year.innerHTML = new Date().getFullYear();
+    }
+};
 
 // hamburger menu
 const $hamburgerMenu = document.querySelector('.js-hamburger-menu');
