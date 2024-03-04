@@ -8,6 +8,8 @@
 .contact-header {
     position: relative;
     top: 1rem;
+    box-shadow: 5px 5px 10px rgba(6, 214, 160, 0.25);
+    margin-bottom: 5rem;
 }
 
 .contact-header h3 {
