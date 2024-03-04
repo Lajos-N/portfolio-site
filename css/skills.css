@@ -64,3 +64,9 @@
     top: 0rem;
     z-index: -50;
 }
+
+.hex-pos-4 {
+    position: absolute;
+    bottom: -43px;
+    right: 24px;
+}

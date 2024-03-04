@@ -1,6 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo img {
@@ -90,4 +91,10 @@ nav ul li a:hover::after {
 .hamburger-menu-icon.active::after {
   top: 0;
   transform: rotate(-45deg);
+}
+
+.hex-pos-1 {
+  position: absolute;
+  top: -110px;
+  left: 115px;
 }

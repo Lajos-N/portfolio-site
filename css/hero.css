@@ -12,6 +12,7 @@
 }
 
 .hero-text {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,10 +31,22 @@
     font-weight: 400;
 }
 
+.hex-pos-2 {
+    position: absolute;
+    top: 2px;
+    left: 356px;
+}
+
 .hero-text p {
     font-size: 1.4rem;
     line-height: 2.3rem;
     font-weight: 300;
+}
+
+.hex-pos-3 {
+    position: absolute;
+    top: 270px;
+    left: 249px;
 }
 
 .hero-contact li {
