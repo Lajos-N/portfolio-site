@@ -1,6 +1,14 @@
-/* MOBILE */
-@media screen and (max-width: 576px) {
-    /* header */
+/* Desktop */
+@media screen and (max-width: 1200px) {
+}
+
+/* Small screens */
+@media screen and (max-width: 1024px) {
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    /* hamburger menü start */
     .btn-container {
         display: flex;
     }
@@ -51,35 +59,97 @@
     .stop-scrolling {
         position: fixed;
     }
-}
+    /* hamburger menü end */
 
-/* TABLET */
-@media screen and (max-width: 768px) {
-    /* hero */
     .hero-container {
         flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        margin: 0 3rem 3rem 3rem;
     }
 
     .img-container img {
-        width: 25rem;
+        width: 27rem;
     }
 
     .hero-text {
-        max-width: 85%;
+        max-width: 100%;
+    }
+
+    .hero-text h1,
+    .hero-text h2 {
+        text-align: center;
+    }
+
+    .hex-pos-2 {
+        top: -49px;
+        left: 347px;
+    }
+
+    .hex-pos-3 {
+        top: -56px;
+        left: -31px;
+    }
+
+    /* skills */
+    .skils-bg {
+        clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
+    }
+
+    .hex-pos-5 {
+        bottom: -75px;
+        left: 5px;
+    }
+
+    /* contact */
+    .contact-header {
+        top: 0rem;
+    }
+
+    .contact-bg {
+        clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    /* footer */
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .copyright,
+    .made-with {
+        padding: 0;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .wrapper {
+        padding: 0 4rem;
+    }
+
+    .img-container img {
+        width: 22rem;
     }
 
     .hero-text h1 {
-        text-align: center;
-    }
-    .hero-text h2 {
-        font-size: 1.8rem;
-        text-align: center;
+        font-size: 2.8rem;
     }
 
-    .hero-contact li {
-        justify-content: center;
+    .hero-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .hex-pos-2 {
+        position: absolute;
+        top: 2px;
+        left: 260px;
+    }
+
+    .hex-pos-3 {
+        position: absolute;
+        top: 270px;
+        left: 217px;
+    }
+
+    footer a {
+        display: none;
     }
 }
