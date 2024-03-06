@@ -25,18 +25,18 @@ footer p {
 }
 
 footer a {
-    color: var(--dark-color);
+    color: var(--secondary-color);
     position: fixed;
     right: 2%;
     bottom: 2rem;
     font-size: 2rem;
-    border: 0.2rem solid var(--dark-color);
+    border: 0.2rem solid var(--secondary-color);
     border-radius: 5rem;
 }
 
 footer a:hover {
-    border-color: var(--secondary-color);
-    color: var(--secondary-color);
+    border-color: var(--light-color);
+    color: var(--light-color);
     transition: 0.3s ease-in-out;
 }
 
