@@ -9,6 +9,7 @@ footer {
 footer p {
     color: var(--light-color);
     font-size: 1rem;
+    font-weight: 100;
 }
 
 .copyright {
