@@ -4,6 +4,11 @@ footer {
     align-items: center;
     height: 5rem;
     background-color: var(--dark-color);
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 footer p {
@@ -14,10 +19,18 @@ footer p {
 
 .copyright {
     padding-left: 8rem;
+
+    @media screen and (max-width: 768px) {
+        padding: 0;
+    }
 }
 
 .made-with {
     padding-right: 8rem;
+
+    @media screen and (max-width: 768px) {
+        padding: 0;
+    }
 }
 
 .fa-apple {
@@ -33,6 +46,10 @@ footer a {
     font-size: 2rem;
     border: 0.2rem solid var(--secondary-color);
     border-radius: 5rem;
+
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
 }
 
 footer a:hover {

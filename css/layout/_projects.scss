@@ -100,4 +100,9 @@
     position: absolute;
     bottom: -100px;
     left: 5px;
+
+    @media screen and (max-width: 768px) {
+        bottom: -75px;
+        left: 5px;
+    }
 }

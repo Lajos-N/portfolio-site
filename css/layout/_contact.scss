@@ -10,6 +10,10 @@
     top: 1rem;
     box-shadow: 5px 5px 10px rgba(6, 214, 160, 0.25);
     margin-bottom: 5rem;
+
+    @media screen and (max-width: 768px) {
+        top: 0rem;
+    }
 }
 
 .contact-header h3 {
@@ -84,4 +88,8 @@ textarea::-webkit-input-placeholder {
     top: 0rem;
     left: 0rem;
     z-index: -50;
+
+    @media screen and (max-width: 768px) {
+        clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0% 100%);
+    }
 }

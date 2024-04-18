@@ -1,0 +1,17 @@
+.wrapper {
+    background-color: var(--background-color);
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 7rem;
+
+    @media screen and (max-width: 480px) {
+        padding: 0 4rem;
+    }
+}
+
+.stop-scrolling {
+    @media screen and (max-width: 768px) {
+        position: fixed;
+    }
+}
