@@ -71,18 +71,9 @@ html {
   margin-top: 3rem;
 }
 
-/* right */
-.mr-7 {
-  margin-right: 7rem;
-}
-
 /* bottom */
 .mb-1 {
   margin-bottom: 1rem;
-}
-
-.mb-2 {
-  margin-bottom: 2rem;
 }
 
 .mb-3 {
@@ -93,24 +84,10 @@ html {
   margin-bottom: 7rem;
 }
 
-/* left */
-.ml-7 {
-  margin-left: 7rem;
-}
-
 /* ===== PADDING ===== */
 /* top */
-.pt-5 {
-  padding-top: 5rem;
-}
-
 .pt-9 {
   padding-top: 9rem;
-}
-
-/* right */
-.pr-7 {
-  padding-right: 7rem;
 }
 
 /* bottom */
@@ -120,11 +97,6 @@ html {
 
 .pb-9 {
   padding-bottom: 9rem;
-}
-
-/* left */
-.pl-7 {
-  padding-left: 7rem;
 }
 
 @font-face {
