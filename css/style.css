@@ -515,7 +515,7 @@ nav ul li a:hover::after {
   text-transform: uppercase;
 }
 
-.card-text.react,
+.card-text.sass,
 .card-text.git {
   text-transform: capitalize;
 }
