@@ -3,106 +3,106 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-}
 
-.projects-header {
-    position: relative;
-    top: -6rem;
-    box-shadow: 5px 5px 10px rgba(6, 214, 160, 0.25);
-}
+    .projects-header {
+        position: relative;
+        top: -6rem;
+        box-shadow: 5px 5px 10px rgba(6, 214, 160, 0.25);
 
-.projects-header h3 {
-    font-size: 2rem;
-    font-weight: 300;
-    color: var(--dark-color);
-    padding: 0.2rem 0.3rem 0.2rem 0.8rem;
-    background-color: var(--secondary-color);
-    letter-spacing: 0.5rem;
-}
+        h3 {
+            font-size: 2rem;
+            font-weight: 300;
+            color: var(--dark-color);
+            padding: 0.2rem 0.3rem 0.2rem 0.8rem;
+            background-color: var(--secondary-color);
+            letter-spacing: 0.5rem;
+        }
+    }
 
-.projects-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 3rem;
-}
+    .projects-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
 
-.project-card {
-    width: 35rem;
-    max-width: 100%;
-    padding: 2rem;
-    background-color: var(--dark-color);
-    border-radius: 0.2rem;
-}
+        .project-card {
+            width: 35rem;
+            max-width: 100%;
+            padding: 2rem;
+            background-color: var(--dark-color);
+            border-radius: 0.2rem;
 
-.img-box {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
+            .img-box {
+                display: flex;
+                gap: 1rem;
+                margin-bottom: 1rem;
 
-.project-img {
-    width: 100%;
-}
+                .project-img {
+                    width: 100%;
+                }
 
-.logo-box {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 2rem;
-}
+                .logo-box {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    width: 2rem;
+                }
+            }
 
-.project-text {
-    text-align: center;
-}
+            .project-text {
+                text-align: center;
 
-.project-text h3 {
-    font-size: 1.6rem;
-    font-weight: 300;
-    color: var(--light-color);
-    margin-bottom: 2rem;
-}
+                h3 {
+                    font-size: 1.6rem;
+                    font-weight: 300;
+                    color: var(--light-color);
+                    margin-bottom: 2rem;
+                }
+            }
 
-.project-btn {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 1rem;
-}
+            .project-btn {
+                display: flex;
+                justify-content: center;
+                gap: 2rem;
+                margin-top: 1rem;
 
-.project-btn a {
-    padding: 0.8rem 1.4rem;
-    background-color: var(--secondary-color);
-    color: var(--dark-color);
-    font-size: 1.4rem;
-    font-weight: 300;
-    border-radius: 0.2rem;
-    text-transform: uppercase;
-    transition: 0.3s ease-in-out;
-}
+                a {
+                    padding: 0.8rem 1.4rem;
+                    background-color: var(--secondary-color);
+                    color: var(--dark-color);
+                    font-size: 1.4rem;
+                    font-weight: 300;
+                    border-radius: 0.2rem;
+                    text-transform: uppercase;
+                    transition: 0.3s ease-in-out;
 
-.project-btn a:last-child {
-    background-color: var(--background-color);
-    color: var(--light-color);
-}
+                    &:hover {
+                        background-color: var(--secondary-color-hover);
+                        color: var(--light-color);
+                    }
 
-.project-btn a:last-child:hover {
-    background-color: var(--light-color);
-    color: var(--dark-color);
-}
+                    &:last-child {
+                        background-color: var(--background-color);
+                        color: var(--light-color);
 
-.project-btn a:hover {
-    background-color: var(--secondary-color-hover);
-    color: var(--light-color);
-}
+                        &:hover {
+                            background-color: var(--light-color);
+                            color: var(--dark-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
 
-.hex-pos-5 {
-    position: absolute;
-    bottom: -100px;
-    left: 5px;
-
-    @media screen and (max-width: 768px) {
-        bottom: -75px;
+    .hex-pos-5 {
+        position: absolute;
+        bottom: -100px;
         left: 5px;
+
+        @media screen and (max-width: 768px) {
+            bottom: -75px;
+            left: 5px;
+        }
     }
 }
