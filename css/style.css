@@ -740,37 +740,32 @@ footer {
     justify-content: center;
   }
 }
-
 footer p {
   color: var(--light-color);
   font-size: 0.9rem;
   font-weight: 100;
 }
-
-.copyright {
+footer .copyright {
   padding-left: 8rem;
 }
 @media screen and (max-width: 768px) {
-  .copyright {
+  footer .copyright {
     padding: 0;
   }
 }
-
-.made-with {
+footer .made-with {
   padding-right: 8rem;
 }
 @media screen and (max-width: 768px) {
-  .made-with {
+  footer .made-with {
     padding: 0;
   }
 }
-
-.fa-apple {
+footer .made-with .fa-apple {
   position: relative;
   bottom: 0.1rem;
 }
-
-footer a {
+footer .btn-up-to-home {
   color: var(--secondary-color);
   position: fixed;
   right: 2%;
@@ -780,17 +775,15 @@ footer a {
   border-radius: 5rem;
 }
 @media screen and (max-width: 480px) {
-  footer a {
+  footer .btn-up-to-home {
     display: none;
   }
 }
-
-footer a:hover {
+footer .btn-up-to-home:hover {
   border-color: var(--light-color);
   color: var(--light-color);
   transition: 0.3s ease-in-out;
 }
-
-.fa-angle-up {
+footer .btn-up-to-home .fa-angle-up {
   padding: 1rem 1.2rem;
 }
