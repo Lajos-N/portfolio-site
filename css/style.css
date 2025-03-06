@@ -147,31 +147,27 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
-.logo-container {
+header .logo-container {
   position: relative;
 }
-
-.hex-pos-1 {
+header .logo-container img {
+  height: 5rem;
+}
+header .logo-container .hex-pos-1 {
   position: absolute;
   top: -135px;
   left: 100px;
 }
-
-.logo img {
-  height: 5rem;
-}
-
-nav {
+header nav {
   display: flex;
   align-items: center;
 }
-nav ul {
+header nav ul {
   display: flex;
   gap: 2rem;
 }
 @media screen and (max-width: 768px) {
-  nav ul {
+  header nav ul {
     position: absolute;
     top: 0;
     left: -100vw;
@@ -187,25 +183,25 @@ nav ul {
   }
 }
 @media screen and (max-width: 768px) {
-  nav ul li {
+  header nav ul li {
     margin: 3rem 0;
   }
 }
-nav ul li a {
+header nav ul li a {
   font-size: 1.3rem;
   padding: 0.5rem;
   text-transform: uppercase;
   font-weight: 300;
 }
 @media screen and (max-width: 768px) {
-  nav ul li a {
+  header nav ul li a {
     font-size: 2rem;
     padding: 1rem;
     margin-left: 0;
     display: inline-block;
   }
 }
-nav ul li a::after {
+header nav ul li a::after {
   content: "";
   display: block;
   width: 0;
@@ -217,27 +213,25 @@ nav ul li a::after {
   transition: width 0.3s;
 }
 @media screen and (max-width: 768px) {
-  nav ul li a::after {
+  header nav ul li a::after {
     left: 0;
   }
 }
-nav ul li a:hover::after {
+header nav ul li a:hover::after {
   width: calc(100% - 5px);
 }
 @media screen and (max-width: 768px) {
-  nav ul li a:hover::after {
+  header nav ul li a:hover::after {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 768px) {
-  .is-active {
+  header nav .is-active {
     top: 0;
     left: 0;
   }
 }
-
-.btn-container {
+header nav .btn-container {
   display: flex;
   display: none;
   cursor: pointer;
@@ -246,13 +240,12 @@ nav ul li a:hover::after {
   width: 4rem;
 }
 @media screen and (max-width: 768px) {
-  .btn-container {
+  header nav .btn-container {
     display: flex;
     z-index: 150;
   }
 }
-
-.hamburger-menu-icon {
+header nav .hamburger-menu-icon {
   display: block;
   position: relative;
   width: 100%;
@@ -260,8 +253,7 @@ nav ul li a:hover::after {
   background-color: var(--secondary-color);
   transition: all 0.3s;
 }
-
-.hamburger-menu-icon::before {
+header nav .hamburger-menu-icon::before {
   content: "";
   position: absolute;
   top: -1rem;
@@ -270,8 +262,7 @@ nav ul li a:hover::after {
   background-color: var(--secondary-color);
   transition: all 0.3s;
 }
-
-.hamburger-menu-icon::after {
+header nav .hamburger-menu-icon::after {
   content: "";
   position: absolute;
   top: 1rem;
@@ -280,17 +271,14 @@ nav ul li a:hover::after {
   background-color: var(--secondary-color);
   transition: all 0.3s;
 }
-
-.hamburger-menu-icon.active {
+header nav .hamburger-menu-icon.active {
   background-color: transparent;
 }
-
-.hamburger-menu-icon.active::before {
+header nav .hamburger-menu-icon.active::before {
   top: 0;
   transform: rotate(45deg);
 }
-
-.hamburger-menu-icon.active::after {
+header nav .hamburger-menu-icon.active::after {
   top: 0;
   transform: rotate(-45deg);
 }
