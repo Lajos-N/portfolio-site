@@ -1,3 +1,14 @@
+# macOS Systemdateien
 .DS_Store
+
+# Persönliche oder temporäre Notizen
 notes.md
+
+# VSCode Editor-Einstellungen
 .vscode
+
+# JetBrains IDE-Einstellungen (z.B. WebStorm, PhpStorm)
+.idea
+
+# CSS Sourcemap-Dateien (werden normalerweise beim Build generiert)
+*.css.map
