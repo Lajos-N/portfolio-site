@@ -394,16 +394,16 @@ header nav .hamburger-menu-icon.active::after {
     left: 217px;
   }
 }
-.hero-container .hero-text .hero-contact li {
+.hero-container .hero-text .hero-contact ul {
   display: flex;
   gap: 2rem;
 }
-.hero-container .hero-text .hero-contact li .hexagon-container {
+.hero-container .hero-text .hero-contact ul .hexagon-container {
   position: relative;
 }
-.hero-container .hero-text .hero-contact li .hexagon-container .fa-github,
-.hero-container .hero-text .hero-contact li .hexagon-container .fa-linkedin,
-.hero-container .hero-text .hero-contact li .hexagon-container .cv {
+.hero-container .hero-text .hero-contact ul .hexagon-container .fa-github,
+.hero-container .hero-text .hero-contact ul .hexagon-container .fa-linkedin,
+.hero-container .hero-text .hero-contact ul .hexagon-container .cv {
   position: absolute;
   color: var(--light-color);
   font-size: 2rem;
@@ -411,14 +411,14 @@ header nav .hamburger-menu-icon.active::after {
   top: 47%;
   left: 49%;
 }
-.hero-container .hero-text .hero-contact li .hexagon-container .cv {
+.hero-container .hero-text .hero-contact ul .hexagon-container .cv {
   font-weight: 700;
   font-size: 1.8rem;
 }
-.hero-container .hero-text .hero-contact li .hexagon-container .hexagon {
+.hero-container .hero-text .hero-contact ul .hexagon-container .hexagon {
   height: 4rem;
 }
-.hero-container .hero-text .hero-contact li .hexagon-container:hover .fa-github, .hero-container .hero-text .hero-contact li .hexagon-container:hover .fa-linkedin, .hero-container .hero-text .hero-contact li .hexagon-container:hover .cv {
+.hero-container .hero-text .hero-contact ul .hexagon-container:hover .fa-github, .hero-container .hero-text .hero-contact ul .hexagon-container:hover .fa-linkedin, .hero-container .hero-text .hero-contact ul .hexagon-container:hover .cv {
   color: var(--dark-color);
   transition: 0.3s;
 }
@@ -475,16 +475,14 @@ header nav .hamburger-menu-icon.active::after {
   width: 100%;
   height: 100%;
   background-color: var(--dark-color);
-  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
-          clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
   position: absolute;
   top: 0rem;
   z-index: -50;
 }
 @media screen and (max-width: 768px) {
   .skills-container .skills-bg {
-    -webkit-clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
-            clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
   }
 }
 .skills-container .hex-pos-4 {
@@ -598,8 +596,7 @@ header nav .hamburger-menu-icon.active::after {
   width: 100%;
   height: 100%;
   background-color: var(--dark-color);
-  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
   position: absolute;
   top: 0rem;
   left: 0rem;
@@ -607,8 +604,7 @@ header nav .hamburger-menu-icon.active::after {
 }
 @media screen and (max-width: 768px) {
   .contact-container .contact-bg {
-    -webkit-clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0% 100%);
-            clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0% 100%);
   }
 }
 .contact-container .contact-header {
